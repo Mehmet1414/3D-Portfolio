@@ -36,18 +36,13 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <motion.div variants={textVariant()} 
-      className="flex flex-col items-center justify-center"
-      >
+    <div>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1)}
-        className="px-10 mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] justify-center"
-      >
+      <motion.p variants={fadeIn("", "", 0.1)}>
         I`m a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I`m a quick learner and collaborate closely with clients to
@@ -62,4 +57,4 @@ const About = () => {
     </div>
   );
 };
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");
