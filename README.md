@@ -15,7 +15,7 @@ Bu bir gelistirme Projesidir
 
 ## Demo
 
-<img src="../src/video-gif.gif"></img>
+<img src="../src/assets/video-gif.gif"></img>
 
 
 
