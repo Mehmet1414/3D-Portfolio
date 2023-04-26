@@ -47,7 +47,7 @@ const Contact = () => {
 
         setForm({
           name: "",
-          emai: "",
+          email: "",
           message:'',
         });
       }); 
